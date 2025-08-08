@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.hhh</groupId>
-    <artifactId>time-wheel-schedule-spring-boot-starter</artifactId>
+    <artifactId>time-wheel-schedule-spring-boot-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
-    <name>Time Wheel Schedule Spring Boot Starter</name>
+    <name>Time Wheel Schedule Spring Boot Parent</name>
 
     <properties>
         <java.version>17</java.version>
@@ -17,4 +17,9 @@
     </properties>
 
     <packaging>pom</packaging>
+
+    <modules>
+        <module>time-wheel-schedule-spring-boot-autoconfigure</module>
+        <module>time-wheel-schedule-spring-boot-starter</module>
+    </modules>
 </project>
